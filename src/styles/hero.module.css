@@ -1,0 +1,52 @@
+.backgroundImg {
+  display: none;
+}
+.logo {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.discord {
+  background: #ff5601;
+  border: 0;
+  color: #fefefe;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto 0;
+  padding: .8em 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .backgroundImg {
+    display: block;
+  }
+
+  .logo {
+    background: #fefe;
+    border-radius: 5px;
+    left: 38%;
+    margin: 0;
+    padding: .8em;
+    position: absolute;
+    top: 15%;
+    width: 25%;
+  }
+  
+  /* .discord {
+    background: #fefe;
+    border: 0;
+    font-size: 2.3em;
+    left: calc(50% - 150px);
+    position: absolute;
+    top: 65%;
+    width: 300px;
+  }
+  
+  .discord a {
+    color: #222;
+  } */
+}
