@@ -1,0 +1,42 @@
+.loader {
+  position: fixed;
+  background: #333;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top:0;
+  z-index: 9999;
+  transition: all 300ms ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.svgLogo {
+  display: block;
+  margin: 15% auto 0;
+  max-width: 450px;
+}
+
+.st0 {
+  fill:#AFAFAF
+}
+
+@keyframes openYourHeart {from {point: 0} to {point: 60px}}
+
+#loaderClip polygon {
+  animation: openYourHeart 15s infinite;
+}
+
+.overlay {
+  background: #ff5601;
+  display: block;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
