@@ -9,10 +9,10 @@ const Loader = ({ isLoading })=> (
     <linearGradient id="lg" x1="0.5" y1="1" x2="0.5" y2="0">
           <stop offset="0%" stopOpacity="1" stopColor="#ff5601"/>
           <stop offset="40%" stopOpacity="1" stopColor="#ff5601">
-            <animate attributeName="offset" from="0" to="1" repeatCount="1" dur="3s" begin="0s" fill="freeze"/>
+            <animate attributeName="offset" from="0" to="1" repeatCount="1" dur="1.7s" begin="0s" fill="freeze"/>
           </stop>
           <stop offset="40%" stopOpacity="0" stopColor="#ff5601">
-            <animate attributeName="offset" from="0" to="1" repeatCount="1" dur="3s" begin="0s" fill="freeze"/>
+            <animate attributeName="offset" from="0" to="1" repeatCount="1" dur="1.7s" begin="0s" fill="freeze"/>
           </stop>
           <stop offset="100%" stopOpacity="0" stopColor="#ff5601" />
       </linearGradient>

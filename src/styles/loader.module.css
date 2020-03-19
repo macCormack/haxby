@@ -24,10 +24,10 @@
   fill:#AFAFAF
 }
 
-@keyframes openYourHeart {from {point: 0} to {point: 60px}}
+@keyframes logoReveal {from {point: 0} to {point: 60px}}
 
 #loaderClip polygon {
-  animation: openYourHeart 15s infinite;
+  animation: logoReveal 1s infinite;
 }
 
 .overlay {

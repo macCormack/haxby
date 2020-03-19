@@ -21,7 +21,7 @@ class IndexPage extends Component {
     setTimeout(() => {
       this.setState({ isLoading: false })
       console.log("setTimeout called!")
-  }, 3500);
+  }, 1800);
   }
 
   render() {

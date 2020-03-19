@@ -26,11 +26,13 @@ const Hero = () => (
     `}
     render={data => {
       return (
-        <div>
+        <div className={heroCss.container}>
           {/* <Img fluid={data.heroImage.childImageSharp.fluid} /> */}
           <Image className={heroCss.backgroundImg} src={data.heroImage.childImageSharp.fluid}/>
-          <Image className={heroCss.logo} src={data.placeholderImage.childImageSharp.fluid}/>
-          <a className={heroCss.discord} href="http://discord.gg/YWWkgXY" target="_blank" rel="noopener noreferrer">JOIN OUR DISCORD</a>
+          <div>
+            <Image className={heroCss.logo} src={data.placeholderImage.childImageSharp.fluid}/>
+            <a className={heroCss.discord} href="http://discord.gg/YWWkgXY" target="_blank" rel="noopener noreferrer">JOIN OUR DISCORD</a>
+          </div>
         </div>
       )
     }}
