@@ -31,7 +31,7 @@ const Hero = () => (
           <Image className={heroCss.backgroundImg} src={data.heroImage.childImageSharp.fluid}/>
           <div>
             <Image className={heroCss.logo} src={data.placeholderImage.childImageSharp.fluid}/>
-            <a className={heroCss.discord} href="http://discord.gg/YWWkgXY" target="_blank" rel="noopener noreferrer">JOIN OUR DISCORD</a>
+            <a className={heroCss.discord} href="https://discord.gg/HV7b5j8gx9" target="_blank" rel="noopener noreferrer">JOIN OUR DISCORD</a>
           </div>
         </div>
       )
